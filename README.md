@@ -144,20 +144,35 @@ The dir command shows the uploaded file and other existing files.
 
 # Conclusion
 This exercise demonstrates how to use Nmap and enum4linux to enumerate SMB services and how to use smbclient to interact with SMB shares. The target (Metasploitable) has weak security settings, allowing anonymous access and write permissions on the tmp share.
+
 Attachment snip
 [SMB snipnet](https://github.com/user-attachments/assets/4b067135-b627-489b-8020-392e06f0b363)
+
 [SMB snipnet](https://github.com/user-attachments/assets/d0baf2de-8a12-4e44-abff-198a223199d3)
+
 [SMB snipnet](https://github.com/user-attachments/assets/c63892db-34be-4a22-b483-b2f70cdfbd06)
+
 [SMB snipnet](https://github.com/user-attachments/assets/a255b41f-ec53-4e22-bcb8-263639146f4d)
+
 [SMB snipnet](https://github.com/user-attachments/assets/9c778a88-90bd-4248-b108-ef77169509c9)
+
 [setoolkit clone](https://github.com/user-attachments/assets/75d1c391-ac72-4711-aa9c-7408cea10e62)
+
 [SMB snipnet](https://github.com/user-attachments/assets/e8016939-7d9f-4ca7-b081-2d96fffa08ad)
+
 [SMB snipnet](https://github.com/user-attachments/assets/373a6fdd-2585-4ec4-89f7-f405c95ce6c4)
+
 [SMB snipnet](https://github.com/user-attachments/assets/92437847-8528-435b-ac05-9044f422050f)
+
 [SMB snipnet]](https://github.com/user-attachments/assets/6b5eba31-0e48-46df-afdd-79746583ca2a)
+
 [SMB snipnet]](https://github.com/user-attachments/assets/a69c7a74-75a1-403a-989d-757778d6a064)
+
 [SMB snipnet]](https://github.com/user-attachments/assets/eb666da2-1f81-43ec-a61a-27db4d65eb66)
+
 [SMB snipnet](https://github.com/user-attachments/assets/c064f1e6-f911-4ab3-bec5-254c23612781)
+
 [SMB snipnet](https://github.com/user-attachments/assets/4f08ac3e-5ee7-4d6e-9b3e-14f819c08f41)
+
 [setoolkit clone](https://github.com/user-attachments/assets/c4428251-2809-4877-a2b4-2d4b494a06b9)
 
